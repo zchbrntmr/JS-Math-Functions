@@ -13,6 +13,9 @@ function exponent(num,pow){
 function midpoint(xa,ya,xb,yb){
   return "("+(xa+xb)/2+","+(ya+yb)+")";
 }
+function pythagorean(a,b){
+  return Math.pow((Math.pow(a,2))+(Math.pow(b,2)),2);
+}
 function round(num){
   return Math.round(num);
 }
