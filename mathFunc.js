@@ -28,11 +28,11 @@ function tangent(num){
 function triangleArea(base,height){
   return base*0.5*height;
 }
-var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-var isFirefox = typeof InstallTrigger !== 'undefined';
-var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
-var isChrome = !!window.chrome && !isOpera;
-var isIE = /*@cc_on!@*/false || document.documentMode;
+var isOpera=!!window.opera||navigator.userAgent.indexOf(' OPR/')>=0;
+var isFirefox=typeof InstallTrigger!=='undefined';
+var isSafari=Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor'>0;
+var isChrome=!!window.chrome&&!isOpera;
+var isIE=/*@cc_on!@*/false||document.documentMode;
 if(isChrome||isFirefox){
   const PI=Math.PI;
   const TAU=Math.PI*2;
